@@ -34,7 +34,7 @@ while True:
     elif valik==6:
         a=input("Введите символ: ")
         if a in slovo_list:
-            i=slovo_list.index(a)#проверка если буквы нет!
+            i=slovo_list.index(a)#пишет номер позиции элемента в списке
             print(f"Элемент {a} стоит на {i+1}-ом месте")
         else:
             print("Данного символа нет в списке!")
